@@ -9,18 +9,18 @@ Indeed working with big images on Android might cause very high memory usage.
 
 ## Getting started
 
-`npm install react-native-image-base64 --save`
+`npm install @azoom-nguyen-van-nam/react-native-image-base64 --save`
 or
-`yarn add react-native-image-base64`
+`yarn add @azoom-nguyen-van-nam/react-native-image-base64`
 
 
 ## Installation
 
-`$ react-native link react-native-image-base64`
+`$ react-native link @azoom-nguyen-van-nam/react-native-image-base64`
 
 ## Usage
 ```javascript
-import ImgToBase64 from 'react-native-image-base64';
+import ImgToBase64 from '@azoom-nguyen-van-nam/react-native-image-base64';
 
 ImgToBase64.getBase64String('file://youfileurl')
   .then(base64String => doSomethingWith(base64String))
